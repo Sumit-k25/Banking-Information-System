@@ -203,7 +203,7 @@ body{
   				<div class="input_wrap">
   				<div class="input_wrap">
   						<label for="user_id">User_id</label>
-  						<input type="text" id="name" name="user_id" readonly="readonly" value="<%= request.getAttribute("user_id") %>">
+  						<input type="text" id="user_id" name="user_id" readonly="readonly" value="<%= request.getAttribute("user_id") %>">
   					</div>
   				
   					<div class="input_wrap">
